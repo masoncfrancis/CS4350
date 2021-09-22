@@ -9,7 +9,15 @@
     <h3>Incoming Student Data</h3><br>
     <form>
         <label>Desired account password:&nbsp;<input type="password" name="accountPass"></label><br>
-        <label>How excited are you to get started? Not very excited&nbsp;<input type="range" name="excitedRange">&nbsp;Very excited </label>
+        <label>How excited are you to get started?&nbsp;&nbsp;<small>Not very excited</small>&nbsp;<input type="range" name="excitedRange">&nbsp;<small>Very
+            excited</small> </label><br>
+        <label>What time do your classes end for the day?&nbsp;<input type="time" name="classEndTime"></label><br>
+        <label>Enter the URL for your Instagram:&nbsp;<input type="url" name="instagramUrl"> </label><br>
+        <label>Quiz: Which week are finals this semester?&nbsp;<input type="week" name="finalsWeek"></label><br><br>
+
+        <div>
+            <button type="submit">Submit</button>&nbsp;&nbsp;<button type="reset">Reset Form</button>
+        </div>
     </form>
 </body>
 </html>
