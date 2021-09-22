@@ -1,0 +1,29 @@
+/*
+Author: Mason Francis
+*/
+
+h1, h2, p, ul, h3, img {
+    text-align: center
+}
+
+h2 {
+    color: red
+}
+
+ul {
+    list-style-position: inside;
+    list-style-image: url("images/tbird.png");
+}
+
+img {
+    border-radius: 50%;
+    max-height: 200px;
+    margin: auto;
+    display: block;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+
