@@ -5,6 +5,33 @@
     <title>Form Assignment 5</title>
 </head>
 <body>
+    <form method="get">
+        <button type="button" id="coolButton" name="coolButton">This button is <strong>pretty cool</strong></button><br>
+        <fieldset>
+            <label for="personInfo">Tell us a bit about yourself: </label><br>
+            <textarea rows="5" id="personInfo" name="personInfo"></textarea>
+        </fieldset><br>
+        <label for="major">Choose your major:&nbsp;<input type="text" id="major" name="major" list="majors"></label><br>
+        <datalist id="majors">
+            <option>Computer Science</option>
+            <option>Information Systems</option>
+            <option>Cyber Security</option>
+        </datalist>
+        <label for="favProfessor">Who is your favorite professor:&nbsp;
+            <select id="favProfessor" name="favProfessor">
+                <optgroup label="Computer Science">
+                    <option value="barker" selected>Dr. Barker</option>
+                    <option value="cantrell">Dr. Cantrell (R.I.P.)</option>
+                </optgroup>
+                <optgroup label="Information Systems">
+                    <option value="wallace">Dr. Wallace</option>
+                    <option value="harris">Prof. Harris</option>
+                </optgroup>
+            </select> 
+        </label>
 
+        <br>
+        <button type="submit">Submit</button>&nbsp;&nbsp;<button type="reset">Reset Form</button>
+    </form>
 </body>
 </html>
