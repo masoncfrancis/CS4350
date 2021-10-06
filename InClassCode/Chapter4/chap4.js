@@ -4,5 +4,6 @@ function helloWorld() {
 }
 
 function area(width, height) {
-    return width * height;
+    document.getElementById('theArea').innerHTML = width * height;
+
 }
