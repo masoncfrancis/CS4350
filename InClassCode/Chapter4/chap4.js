@@ -27,7 +27,7 @@ function quadraticEquation() {
 function Book(title, chapters, color){
     this.title = title;
     this.chapters = chapters;
-    this.color = colors;
+    this.color = color;
 }
 
 

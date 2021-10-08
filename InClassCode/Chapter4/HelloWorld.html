@@ -29,15 +29,17 @@
 
     <h2 id="copyright"></h2>
 
-    <script src="chap4.js">
-    </script>
+    <script src="chap4.js"></script>
     <script>
         var date = new Date();
-        document.getElementById('copyright').innerHTML = "&copy; " + date.getDate();
+        document.getElementById('copyright').innerHTML = "&copy; " + date;
 
         // Create a Book object
         var b = new Book("Harry Potter", 18, "Tan");
-        document.getElementById('theBook').innerHTML = b.title;
+        // list properties of b
+        for (var prop in b){
+            document.getElementById('theBook').innerHTML += prop + ": " + b[prop] + ", " ;
+        }
     </script>
 </body>
 </html>
