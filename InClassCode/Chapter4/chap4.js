@@ -17,17 +17,21 @@ function quadraticEquation() {
     var a = prompt("Enter an a");
     var b = prompt("Enter an b");
     var c = prompt("Enter an c");
-    var first = (-b + Math.sqrt(b*b-4*a*c))/(2*a);
-    var second = (-b - Math.sqrt(b*b-4*a*c))/(2*a);
+    var first = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+    var second = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
     document.getElementById('quadEqResult').innerHTML = `The results are ${first} and ${second}`;
 
 }
 
 // Demonstrates creating an Object with a function
-function Book(title, chapters, color){
+function Book(title, chapters, color) {
     this.title = title;
     this.chapters = chapters;
     this.color = color;
 }
 
 
+// demonstrating passing functions as parameters to other functions
+function functionThatCallsAFunction(f) {
+    return f();
+}
