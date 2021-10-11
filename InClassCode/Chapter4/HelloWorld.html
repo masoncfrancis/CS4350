@@ -8,6 +8,17 @@
     <h1 id="theArea"></h1>
     <p>Hello World</p>
     <script>
+
+        // Code to demonstrate regular expressions
+        var s = "For months, the 13 randomly selected commissioners, all novices at mapping, have been wrestling with untangling the gerrymandered boundaries put in place by a Republican state legislature and governor a decade ago, when new lines were drawn after the last Census. ";
+        var index = s.search(/[0-9][^0-9].[A-z]/);
+        if (index < 0){
+            document.write('No matches found');
+        } else{
+            document.write(s.substring(index, index + 7));
+        }
+
+
         /*document.write("foo bar");
         alert("Page is a work in progress");
         var confirmMsg = confirm("Click a button");
