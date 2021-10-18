@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="chap5.js"></script>
 </head>
-<body>
+<body onload="setupRadioButtons()">
     <p>Hello World</p>
 
     <button type="button">Hello World</button>
 
-    <script src="chap5.js"></script>
+    <div id="radioForm">
+        <label><input type="radio" name="theRadio" id="radio1"> First Button</label><br>
+        <label><input type="radio" name="theRadio" id="radio2"> Second Button</label><br>
+        <label><input type="radio" name="theRadio" id="radio3"> Third Button</label><br>
+        <label><input type="radio" name="theRadio" id="radio4"> Fourth Button</label><br>
+    </div>
+
+    <p id="theParagraph"></p>
 </body>
 </html>
