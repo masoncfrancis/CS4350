@@ -1,19 +1,20 @@
 // computes the total cost of the wizarding supplies and puts the value in the total input
 function computeCost() {
 
-    var robes = document.getElementById("robes").value; // $32.49
+    var robes = parseInt(document.getElementById("robes").value); // $32.49
     var hat = document.getElementById("hat").value; // $13.95
     var gloves = document.getElementById("gloves").value; // $9.59
-
-    if (isNaN(robes)){
+    // check for int
+    if (!Number.isInteger(robes)){
         document.getElementById("cost").value = "Fix robes value";
         return;
     }
-    if (isNaN(hat)){
+    // use regex
+    if (hat.match(/[^0-9]+/)){
         document.getElementById("cost").value = "Fix hat value";
         return;
     }
-    if (isNaN(gloves)){
+    if (gloves.match(/[^0-9]+/)){
         document.getElementById("cost").value = "Fix gloves value";
         return;
     }
