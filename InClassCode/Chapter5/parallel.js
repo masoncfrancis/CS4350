@@ -7,7 +7,8 @@ function draw() {
   if (dom.getContext) {
     var context = dom.getContext('2d');
 
-    drawL(context);
+    //drawL(context);
+    drawImg(context);
   }
 }
 
@@ -17,5 +18,10 @@ function drawL(context) {
   context.lineTo(50, 200);
   context.lineTo(100, 200);
   context.stroke();
+}
+
+function drawImg(context) {
+  let img = document.getElementById("suusa");
+  context.drawImage(img, 5, 5);
 }
  
