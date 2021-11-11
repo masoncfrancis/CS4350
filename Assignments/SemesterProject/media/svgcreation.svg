@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+        <style>.cls-1{fill:red;}.cls-2{isolation:isolate;font-size:12px;font-family:ArialMT,
+            Arial;}.cls-3{letter-spacing:-0.06em;}.cls-4{letter-spacing:-0.02em;}.cls-5{letter-spacing:-0.04em;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <circle class="cls-1" cx="100" cy="100" r="100"/>
+            <text class="cls-2" transform="translate(34.09 104.52)">SUUS
+                <tspan class="cls-3" x="33.34" y="0">A</tspan>
+                <tspan x="40.68" y="0" xml:space="preserve"> Project</tspan>
+                <tspan class="cls-4" x="81.36" y="0"></tspan>
+                <tspan class="cls-5" x="84.48" y="0">T</tspan>
+                <tspan x="91.37" y="0">racker</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
