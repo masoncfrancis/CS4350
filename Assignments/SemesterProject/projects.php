@@ -16,17 +16,17 @@
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html"><img src="media/tbird.svg"
-                                                                   class="d-inline-block align-top"
-                                                                   height="30"> SUUSA Project Tracker</a>
+                    <a class="navbar-brand" href="index.php"><img src="media/tbird.svg"
+                                                                  class="d-inline-block align-top"
+                                                                  height="30"> SUUSA Project Tracker</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
-                            <a class="nav-link active" href="projects.html">Projects</a>
-                            <a class="nav-link" href="officials.html">Elected Officials</a>
-                            <a class="nav-link" href="tutorial.html">Tutorial</a>
+                            <a class="nav-link active" href="projects.php">Projects</a>
+                            <a class="nav-link" href="officials.php">Elected Officials</a>
+                            <a class="nav-link" href="tutorial.php">Tutorial</a>
                         </div>
                     </div>
                 </nav>
@@ -58,9 +58,9 @@
                 <h4>Active Projects:</h4>
                 <br>
                 <div class="list-group">
-                    <a href="projectinfo.html" class="list-group-item list-group-item-action">CSIS Faculty Crisis
+                    <a href="projectinfo.php" class="list-group-item list-group-item-action">CSIS Faculty Crisis
                         <small>Sponsor: <strong>Mason Francis</strong></small></a>
-                    <a href="projectinfo.html" class="list-group-item list-group-item-action">ELC Improvements <small>Sponsor:
+                    <a href="projectinfo.php" class="list-group-item list-group-item-action">ELC Improvements <small>Sponsor:
                         <strong>Mason Francis</strong></small></a>
                 </div>
                 <br>
@@ -72,9 +72,9 @@
                 <h4>Closed Projects:</h4>
                 <br>
                 <div class="list-group">
-                    <a href="projectinfo.html" class="list-group-item list-group-item-action">Lauren's Promise
+                    <a href="projectinfo.php" class="list-group-item list-group-item-action">Lauren's Promise
                         Resolution <small>Sponsor: <strong>Alexandra Holsey</strong></small></a>
-                    <a href="projectinfo.html" class="list-group-item list-group-item-action">Athletic Newsletter
+                    <a href="projectinfo.php" class="list-group-item list-group-item-action">Athletic Newsletter
                         Posting Funding <small>Sponsor: <strong>Jonah Babbel</strong></small></a>
                 </div>
                 <br>

@@ -12,17 +12,17 @@
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html"><img src="media/tbird.svg"
-                                                                   class="d-inline-block align-top"
-                                                                   height="30"> SUUSA Project Tracker</a>
+                    <a class="navbar-brand" href="index.php"><img src="media/tbird.svg"
+                                                                  class="d-inline-block align-top"
+                                                                  height="30"> SUUSA Project Tracker</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                            <a class="nav-link active" href="officials.html">Elected Officials</a>
-                            <a class="nav-link" href="tutorial.html">Tutorial</a>
+                            <a class="nav-link" href="projects.php">Projects</a>
+                            <a class="nav-link active" href="officials.php">Elected Officials</a>
+                            <a class="nav-link" href="tutorial.php">Tutorial</a>
                         </div>
                     </div>
                 </nav>
@@ -51,7 +51,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
 
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                         <p class="card-text">
                             <a href="mailto:suusa_email@suu.edu">suusa_email@suu.edu</a>
                         </p>
-                        <a href="addeditofficial.html"><img src="media/pencil-fill.svg" height="20px"></a>
+                        <a href="addeditofficial.php"><img src="media/pencil-fill.svg" height="20px"></a>
                     </div>
                 </div>
             </div>
