@@ -13,25 +13,9 @@
 <body>
     <div class="container-fluid">
 
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.php"><img src="media/tbird.svg"
-                                                                  class="d-inline-block align-top"
-                                                                  height="30"> SUUSA Project Tracker</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="projects.php">Projects</a>
-                            <a class="nav-link" href="officials.php">Elected Officials</a>
-                            <a class="nav-link" href="tutorial.php">Tutorial</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
+        <?php
+        echo file_get_contents("sources/navbar.html");
+        ?>
         <div class="row">
             <!-- Original SVG code for file, changed when I opened and resaved it in Adobe Illustrator
             <svg height="300" width="100%">

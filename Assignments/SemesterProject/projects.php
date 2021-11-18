@@ -13,29 +13,15 @@
 </head>
 <body onload="draw()">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.php"><img src="media/tbird.svg"
-                                                                  class="d-inline-block align-top"
-                                                                  height="30"> SUUSA Project Tracker</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" href="projects.php">Projects</a>
-                            <a class="nav-link" href="officials.php">Elected Officials</a>
-                            <a class="nav-link" href="tutorial.php">Tutorial</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
+
+        <?php
+        echo file_get_contents("sources/navbar.html");
+        ?>
 
         <div class="form-row">
             <div class="col" style="margin: auto; display: block; width: 50%">
-                <canvas id="suusaLogoCanvas" style="margin: auto; display: block;" width="400px" height="150px"></canvas>
+                <canvas id="suusaLogoCanvas" style="margin: auto; display: block;" width="400px"
+                        height="150px"></canvas>
                 <img src="media/suusalogo.png" style="display: none" id="suusaLogo">
                 <script>
                     function draw() {
@@ -61,7 +47,7 @@
                     <a href="projectinfo.php" class="list-group-item list-group-item-action">CSIS Faculty Crisis
                         <small>Sponsor: <strong>Mason Francis</strong></small></a>
                     <a href="projectinfo.php" class="list-group-item list-group-item-action">ELC Improvements <small>Sponsor:
-                        <strong>Mason Francis</strong></small></a>
+                            <strong>Mason Francis</strong></small></a>
                 </div>
                 <br>
             </div>
