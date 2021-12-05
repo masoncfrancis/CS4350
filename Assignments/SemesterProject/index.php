@@ -14,7 +14,9 @@
     <div class="container-fluid">
 
         <?php
-            echo file_get_contents("sources/navbar.html");
+        echo file_get_contents("sources/navbar.html");
+        include "include/session.php";
+        echo "\nUsername: {$_SESSION['username']}";
         ?>
         <div class="row">
             <div class="col">
