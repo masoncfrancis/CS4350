@@ -20,9 +20,9 @@
 
         <div class="form-row">
             <div class="col" style="margin: auto; display: block; width: 50%">
-                <canvas id="suusaLogoCanvas" style="margin: auto; display: block;" width="400px"
-                        height="150px"></canvas>
-                <img src="media/suusalogo.png" style="display: none" id="suusaLogo">
+                <canvas id="suusaLogoCanvas" style="margin: auto; display: block;" width="400"
+                        height="150"></canvas>
+                <img src="media/suusalogo.png" alt="SUUSA Logo" style="display: none" id="suusaLogo">
                 <script>
                     function draw() {
                         const context = document.getElementById('suusaLogoCanvas').getContext('2d');

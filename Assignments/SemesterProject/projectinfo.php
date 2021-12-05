@@ -42,15 +42,15 @@
         <div class="form-row">
             <div class="form-group col-4">
                 <label for="sponsorPosition">Sponsor Position:</label>
-                <input class="form-control" type="text" id="sponsorPosition" Position="sponsorPosition">
+                <input class="form-control" type="text" id="sponsorPosition" name="sponsorPosition">
             </div>
             <div class="form-group col-4">
                 <label for="cosponsorPosition">Co-Sponsor Position:</label>
-                <input class="form-control" type="text" id="cosponsorPosition" Position="cosponsorPosition">
+                <input class="form-control" type="text" id="cosponsorPosition" name="cosponsorPosition">
             </div>
             <div class="form-group col-4">
                 <label for="authorPosition">Author Position:</label>
-                <input class="form-control" type="text" id="authorPosition" Position="authorPosition">
+                <input class="form-control" type="text" id="authorPosition" name="authorPosition">
             </div>
         </div>
 

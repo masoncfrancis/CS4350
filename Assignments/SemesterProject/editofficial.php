@@ -30,6 +30,9 @@ if (isset($_GET['official'])) {
             $email = $row['email'];
         }
     }
+} else {
+    http_response_code(400);
+    die();
 }
 
 ?>
@@ -105,8 +108,8 @@ if (isset($_GET['official'])) {
                         $(document).ready(function () {
                             $('#officialForm').submit(function (e) {
                                 changeSaveButton(1);
-                            })
-                        })
+                            });
+                        });
 
                         function changeSaveButton(option) {
                             const saveBtn = document.getElementById('saveBtn');

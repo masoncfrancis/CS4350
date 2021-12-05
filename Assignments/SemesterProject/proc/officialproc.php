@@ -8,6 +8,11 @@ $branch = mysqli_escape_string($mysqli, $_POST['branch']);
 $email = mysqli_escape_string($mysqli, $_POST['email']);
 $query = "";
 
+if (!isset($_POST['actionType'])){ // Return 400 error if accessed not with a form submission
+    http_response_code(400);
+    die();
+}
+
 if ($_POST['actionType'] === '1') {
     $query = "INSERT INTO suusaprojecttracker.electedofficials (id, name, position, branch, email) VALUES (NULL, '{$name}', '{$position}', {$branch}, '{$email}')";
 

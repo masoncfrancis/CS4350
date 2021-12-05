@@ -68,8 +68,8 @@
                         $(document).ready(function () {
                             $('#officialForm').submit(function (e) {
                                 changeSaveButton(1);
-                            })
-                        })
+                            });
+                        });
 
                         function changeSaveButton(option) {
                             const saveBtn = document.getElementById('saveBtn');

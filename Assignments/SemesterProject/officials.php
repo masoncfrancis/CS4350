@@ -8,6 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
             crossorigin="anonymous"></script>
+    <style>
+        .card {
+            width: 17rem
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
@@ -49,7 +54,7 @@
                                         <p class='card-text'>
                                             <a href='mailto:suusa_email@suu.edu'>{$row['email']}</a>
                                         </p>
-                                        <a href='editofficial.php?official={$row['id']}'><img src='media/pencil-fill.svg' height='20px'></a>
+                                        <a href='editofficial.php?official={$row['id']}'><img alt='Edit icon' src='media/pencil-fill.svg' height='20'></a>
                                     </div>
                                 </div>
                             </div>";
@@ -62,7 +67,7 @@
                                         <p class='card-text'>
                                             <a href='mailto:{$row['email']}'>{$row['email']}</a>
                                         </p>
-                                        <a href='editofficial.php?official={$row['id']}'><img src='media/pencil-fill.svg' height='20px'></a>
+                                        <a href='editofficial.php?official={$row['id']}'><img alt='Edit icon' src='media/pencil-fill.svg' height='20'></a>
                                     </div>
                                 </div>
                             </div>";
@@ -75,7 +80,7 @@
                                         <p class='card-text'>
                                             <a href='mailto:{$row['email']}'>{$row['email']}</a>
                                         </p>
-                                        <a href='editofficial.php?official={$row['id']}'><img src='media/pencil-fill.svg' height='20px'></a>
+                                        <a href='editofficial.php?official={$row['id']}'><img src='media/pencil-fill.svg' alt='Edit icon' height='20'></a>
                                     </div>
                                 </div>
                             </div>";
@@ -116,11 +121,7 @@
             ?>
         </div>
 
-        <style>
-            .card {
-                width: 17rem
-            }
-        </style>
+
 
 
     </div>

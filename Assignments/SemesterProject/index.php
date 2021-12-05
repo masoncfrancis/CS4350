@@ -20,7 +20,7 @@
         ?>
         <div class="row">
             <div class="col">
-                <img style="margin-left: auto; margin-right: auto; display: block;" src="media/suusalogo.png"><br>
+                <img style="margin-left: auto; margin-right: auto; display: block;" alt="SUUSA Logo" src="media/suusalogo.png"><br>
             </div>
         </div>
         <div class="row">
