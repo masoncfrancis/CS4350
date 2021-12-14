@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <video width="400" controls style="display: block; margin-left: auto; margin-right: auto;">
+                <video width="600" controls style="display: block; margin-left: auto; margin-right: auto;">
                     <source type="video/mp4" src="media/tutorial.mp4">
                     Your browser doesn't support this file format
                 </video>

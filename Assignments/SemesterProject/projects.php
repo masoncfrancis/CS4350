@@ -1,3 +1,23 @@
+<?php
+include_once "include/db.php";
+$query = "SELECT * FROM suusaprojecttracker.projects";
+$current_proj_html = "";
+$closed_proj_html = "";
+
+if ($result = $mysqli->query($query)){
+    while ($row = mysqli_fetch_array($result)){
+        $text = "<a href='projectinfo.php?proj={$row['id']}' class='list-group-item list-group-item-action'>{$row['name']}
+                        <small>Sponsor: <strong>{$row['sponsor_name']}</strong></small></a>";
+        if ($row['is_active'] === '1'){
+            $current_proj_html .= $text;
+        } elseif ($row['is_active'] === '0'){
+            $closed_proj_html .= $text;
+        }
+    }
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +27,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
           integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="projcss.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
             crossorigin="anonymous"></script>
@@ -44,10 +67,7 @@
                 <h4>Active Projects:</h4>
                 <br>
                 <div class="list-group">
-                    <a href="projectinfo.php" class="list-group-item list-group-item-action">CSIS Faculty Crisis
-                        <small>Sponsor: <strong>Mason Francis</strong></small></a>
-                    <a href="projectinfo.php" class="list-group-item list-group-item-action">ELC Improvements <small>Sponsor:
-                            <strong>Mason Francis</strong></small></a>
+                    <?php echo $current_proj_html; ?>
                 </div>
                 <br>
             </div>
@@ -58,10 +78,7 @@
                 <h4>Closed Projects:</h4>
                 <br>
                 <div class="list-group">
-                    <a href="projectinfo.php" class="list-group-item list-group-item-action">Lauren's Promise
-                        Resolution <small>Sponsor: <strong>Alexandra Holsey</strong></small></a>
-                    <a href="projectinfo.php" class="list-group-item list-group-item-action">Athletic Newsletter
-                        Posting Funding <small>Sponsor: <strong>Jonah Babbel</strong></small></a>
+                    <?php echo $closed_proj_html; ?>
                 </div>
                 <br>
             </div>
